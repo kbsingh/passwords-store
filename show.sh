@@ -1,7 +1,6 @@
 #!/bin/sh
 
-. config
-
+RemoteHost=8.8.8.8
 ping -c 1 $RemoteHost > /dev/null 2>&1
 if [ $? -eq 0 ]; then
   git pull
