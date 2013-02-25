@@ -1,0 +1,6 @@
+# Config file with a few things you really should set
+#
+# RemoteHost is what we ping test against to see
+#  if we have network access at the moment
+#  ToDo: ipv6 only ?
+RemoteHost=176.67.173.46
